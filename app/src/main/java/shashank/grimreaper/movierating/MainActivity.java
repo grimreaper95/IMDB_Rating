@@ -36,3 +36,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+
+/*
+ b1.setOnClickListener(new View.OnClickListener()
+*/
