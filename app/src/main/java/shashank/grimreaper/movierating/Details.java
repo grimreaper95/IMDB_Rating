@@ -154,3 +154,6 @@ public class Details extends Activity {
 Cannot see the poster in college as the link is blocked by cyberoam
 
  */
+/*
+Please check semicolons
+*/
