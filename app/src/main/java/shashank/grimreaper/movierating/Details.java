@@ -136,6 +136,7 @@ public class Details extends Activity {
             super.onPostExecute(s);
             this.progressDialog.dismiss();
             if(s.equalsIgnoreCase("no such movie")){
+                //When no movie of such name exists
                 Toast.makeText(Details.this,"Sorry, No such movie is present in Database.",Toast.LENGTH_SHORT).show();
                 finish();
                 return ;
